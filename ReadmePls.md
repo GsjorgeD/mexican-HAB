@@ -1,10 +1,10 @@
 MEXICAN H.A.B. PAGE
 
-En este repositorio se encuentran los codigos que utilizamos para el bot el sitio web
+In this repository you will se de code wich we use to programming the web site bot
 ---- Bot ---
 
-y el codigo que utilizamos para los sensores
+and the code wich we use for the sensors (LM35)
 ---- Sensores ----
 
-Y este es el link de la pagina: 
-http://mexican-hab.azurewebsites.net/blog/
+link to the page project:
+http://mexican-hab.azurewebsites.net/
