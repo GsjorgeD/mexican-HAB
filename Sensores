@@ -1,0 +1,21 @@
+/*Codigo Sensor Termico(Sensor LM35)*/
+
+int SENSOR;		/* variable almacena valor leido de entrada analogica A0 */
+float TEMPERATURA;	/* valor de temperatura en grados centigrados */
+
+void setup(){
+  Serial.begin(9600);	/*se inicializa la comunicacion de serie a 9600 bps*/
+  
+}
+
+void loop(){
+
+
+  SENSOR = analogRead(A0);				/*Aquí se convierte el valor de grados a centigrados*/			
+  TEMPERATURA = ((SENSOR * 5000.0) / 1023) / 10;
+	
+  			
+  Serial.println(TEMPERATURA, 1);			/*Se imprime la temperatura en el monitor*/				
+							
+  delay(1000);						
+}
