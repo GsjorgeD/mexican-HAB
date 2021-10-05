@@ -1,10 +1,19 @@
-MEXICAN H.A.B. PAGE
+# Mexican-HAB
+Sitio web que ilustra de forma sencilla el proceso de fabricación, lanzamiento y seguimiento de los globos de gran altitud (HAB). Cuenta con información sobre seguridad y normativa; además, un chatbot capaz de responder a las preguntas más frecuentes.
+- Link del proyecto: http://mexican-hab.azurewebsites.net/
+## Herramientas utilizadas
+* Azure Bot Service
 
-In this repository you will se de code wich we use to programming the web site bot
----- Bot ---
+![Logo Bot service](/src/images/botservice.png)
 
-also you can use our code for the sensors (LM35)
----- Sensores ----
+* QnA Maker
 
-link to the page project:
-http://mexican-hab.azurewebsites.net/
+![Logo Qna Maker](/src/images/qnamaker.png)
+
+* Azure Market Place (Uso de WordPress)
+
+![Logo Market Place](/src/images/marketplace.png)
+
+* App Service
+
+![LogoApp service](/src/images/appservice.png)
